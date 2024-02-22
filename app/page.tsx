@@ -1,7 +1,12 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
   return (
-   <p className=" text-indigo-900 font-bold black">This is a convex app</p>
+   <div >
+    <Button variant="destructive">
+      Delete
+    </Button>
+   </div>
   );
 }
